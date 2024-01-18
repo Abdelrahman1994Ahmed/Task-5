@@ -207,7 +207,7 @@
 .bigbox1{
     padding: 15px 20px 15px 20px;
     background-color: white;
-    border: 1px solid black;
+    border: 1px none black;
     border-radius: 10px;
     margin-right: 5px;
 }
@@ -729,6 +729,7 @@
     margin-top: 5vh;
     padding: 25px 45px;
     border: 1px solid rgba(100, 98, 98, 0.472);
+    border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     justify-content: space-between;
     width: 50%;
@@ -896,7 +897,9 @@
 }
 .choices8a:hover{
     cursor: pointer;
-    text-decoration-line:underline ;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+
 }
 .child8c{
     position: absolute;
